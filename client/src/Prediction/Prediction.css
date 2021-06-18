@@ -1,0 +1,91 @@
+#predict {
+  height: auto;
+  color: white;
+}
+
+#predict > * {
+  margin: 2rem 4rem;
+}
+
+.dominant {
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.rating-scale {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+:root {
+  --rating-size: 10rem;
+  --bar-size: 1rem;
+  --background-color: #e7f2fa;
+  --rating-color-default: #2980b9;
+  --rating-color-background: #c7e1f3;
+  --rating-color-good: #27ae60;
+  --rating-color-meh: #f1c40f;
+  --rating-color-bad: #e74c3c;
+}
+
+/* Rating item */
+.rating {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  overflow: hidden;
+
+  color: var(--rating-color-default);
+  width: var(--rating-size);
+  height: var(--rating-size);
+
+  /* Basic style for the text */
+  font-size: calc(var(--rating-size) / 3);
+  line-height: 1;
+}
+
+/* Rating circle content */
+.rating span {
+  position: relative;
+  display: flex;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.rating span small {
+  font-size: 0.5em;
+  font-weight: 900;
+  align-self: center;
+}
+
+/* Bar mask, creates an inner circle with the same color as thee background */
+.rating::after {
+  content: "";
+  position: absolute;
+  top: var(--bar-size);
+  right: var(--bar-size);
+  bottom: var(--bar-size);
+  left: var(--bar-size);
+  background: var(--background-color);
+  border-radius: inherit;
+  z-index: 1;
+}
+
+/* Bar background */
+.rating::before {
+  content: "";
+  position: absolute;
+  top: var(--bar-size);
+  right: var(--bar-size);
+  bottom: var(--bar-size);
+  left: var(--bar-size);
+  border-radius: inherit;
+  box-shadow: 0 0 0 1rem var(--rating-color-background);
+  z-index: -1;
+}

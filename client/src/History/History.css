@@ -1,0 +1,22 @@
+#history .count {
+  font-size: 60px;
+  color: #edb61b;
+  font-weight: bold;
+  text-align: center;
+}
+
+#history .lastdays {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#history {
+  color: var(--opacity-color);
+  margin: 1rem 0;
+}
+
+#history .description {
+  font-size: 1.2rem;
+  margin: 3rem 0;
+}

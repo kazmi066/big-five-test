@@ -1,0 +1,20 @@
+#mainheading {
+  background-color: yellowgreen;
+  padding: 1rem;
+}
+
+#mainheading img {
+  width: 100%;
+}
+
+#mainheading .row {
+  margin-left: 0;
+  margin-right: 0;
+  align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+  #mainheading img {
+    width: 30rem;
+  }
+}

@@ -1,0 +1,13 @@
+#testtaken {
+  padding: 2rem 0;
+  background: rgb(228, 228, 228) none repeat scroll 0% 0%;
+}
+
+#testtaken .taken_image {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+#testtaken h3 {
+  font-weight: bolder;
+}
