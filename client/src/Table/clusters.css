@@ -1,0 +1,11 @@
+.graphs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.graphs div {
+  max-width: 30% !important;
+  margin: 1rem 1rem;
+}

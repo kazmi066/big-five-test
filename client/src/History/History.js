@@ -6,7 +6,7 @@ export default function History() {
   return (
     <section id="history">
       <Container>
-        <div className="count">1,228,979</div>
+        <div className="count">3</div>
         <div className="lastdays">TESTS TAKEN IN THE LAST 30 DAYS</div>
         <div className="description">
           This free personality test gives you accurate scores for the{" "}
