@@ -11,6 +11,11 @@ Base your ratings on how you really are, not how you would like to be.
 - Flask (Backend Api)
 - Model (Colab Notebook)
 
+# Machine learning Algorithms
+- Clustering (K-means)
+- Classifier (Random Forest)
+- PCA (Dimensionality Reduction and Cluster Visualization)
+
 ## FAQ
 
 Q. What personality traits does this Big Five test measure?
