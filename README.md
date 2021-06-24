@@ -25,7 +25,7 @@ Neuroticism - How sensitive a person is to stress and negative emotional trigger
 The Big Five model of personality is widely considered to be the most scientifically robust way to describe personality differences. It is the basis of most modern personality research.
 
 Q. How long is this test?
-A. The test consists of 60 questions and takes about 5-10 minutes to complete.
+A. The test consists of 50 questions and takes about 10-15 minutes to complete.
 
 Q. What will I learn from my test report?
 A. You will first see a brief, free report showing the basic findings of your personality test. Then, you have the option of unlocking your full report for a small fee. To see what you can expect from your full report, check out this sample Big Five report.
